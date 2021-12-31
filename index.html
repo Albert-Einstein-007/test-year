@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Happy New Year 💥💥</title>
+  <style type="text/css" media="all">
+    h1{}
+    h2{}
+    h3{ font-size: 160%; color: #FF7804; text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000; letter-spacing: 1px;}
+    h4,
+    h5 {}
+
+    body {
+      font-size: 200%;
+      text-align: center;
+      padding-top: -100%;
+      background: #FF1291;
+    }
+
+    #newy {
+      display: flex;
+      flex-direction: row;
+      text-align: center;
+      margin-left: 5%;
+
+    }
+
+    #n,
+    #e,
+    #w,
+    #Y,
+    #ee,
+    #a,
+    #r {
+      animation: dance 0.8s linear infinite;
+     
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+font-size: 190%;
+    }
+    #n{color:#DCFF05;}
+    #e{color:#41FF05;}
+    #w{color:#05FF8F;}
+    #Y{color:#05B6FF;}
+    #ee{color:#2005FF;}
+    #a{color: #CE05FF;}
+    #r{color: #FF0505;}
+
+    @keyframes dance {
+
+      0% {
+        transform: rotate(-50deg)
+      }
+
+      50% {
+        transform: rotate(50deg)
+      }
+
+      100% {
+        transform: rotate(-50deg)
+      }
+
+
+    }
+
+    #Y {
+      padding-left: 10px;
+
+    }
+
+    .hpy {
+      text-align: left;
+      margin-top: -10%;
+    }
+
+    #nm {
+
+
+      text-transform: uppercase;
+      font-family: verdana;
+      color: #05FFC6;
+
+      text-shadow: 4px 5px 1px #5E0000,
+        3px 4px 1px #7B1C1C,
+        2px 3px 1px #A93A3A,
+        1px 2px 1px #B95555,
+        0px 1px 1px #DD8585
+
+      ;
+      animation: shadow .2s linear infinite;
+      
+      
+    }
+    
+    @keyframes shadow {
+      0%{
+        text-shadow: 4px 5px 1px #5E0000,
+        3px 4px 1px #7B1C1C,
+        2px 3px 1px #A93A3A,
+        1px 2px 1px #B95555,
+        0px 1px 1px #DD8585
+
+      ;
+      }50%{
+        text-shadow: 0px 1px 1px #5E0000,
+        1px 2px 1px #7B1C1C,
+        2px 3px 1px #A93A3A,
+        3px 4px 1px #B95555,
+        4px 5px 1px #DD8585
+
+      ;
+      }75%{
+        text-shadow: 0px 5px 1px #5E0000,
+        1px 4px 1px #7B1C1C,
+        2px 3px 1px #A93A3A,
+        3px 2px 1px #B95555,
+        4px 1px 1px #DD8585
+
+      ;
+      }100%{
+         text-shadow: 4px 1px 1px #5E0000,
+        3px 3px 1px #7B1C1C,
+        2px 3px 1px #A93A3A,
+        1px 4px 1px #B95555,
+        0px 5px 1px #DD8585
+
+      ;
+      }
+    }
+    #hp1{
+      color: #21FF05;
+    }
+    #hp2{
+      color: #05FFBA;
+      margin-top: -20%;
+      
+      
+    }
+    #hp3{
+      color: #FFE905;
+    }
+    #hp1,#hp2,#hp3{
+      text-shadow: -1px -1px 0 #FFF, 1px -1px 0 #FFF, -1px 1px 0 #FFF, 1px 1px 0 #FFF;
+      font-size:150%;
+      padding-left: 20px;
+      
+    }
+    p {font-weight: bolder; color: ghostwhite;}
+    #days{
+      font-size: 50px;
+      font-weight: bold;
+      color: #69FF04;
+      text-shadow: 0 0 4px #02DBD5;
+    }
+    
+    input{
+      outline: none;
+      font-size: 20px;
+      color: #FF0000;
+      background: #00FFC7;
+      border:2px solid #1B00FF;
+      border-radius: 10px;
+      margin-left: -16px;
+    }
+    #share{
+      font-size: 20px;
+      outline: none;
+      color: #FF0000;
+      font-weight: bolder;
+      border-radius: 10px;
+      backdrop: #8800FF;
+    border:2px solid #1B00FF;  
+    }
+    #share:hover{
+      background:#F3BC62;
+    }
+    #sh{
+      margin-bottom: 50px;
+    }
+  </style>
+</head>
+
+<body onload="hid()">
+  <h1 id="nm"></h1>
+  <h3 >Wishing You A</h3>
+  <div>
+    <h5 class="hpy" id="hp1"></h5>
+    <h4 class="hpy" id="hp2"></h4>
+    <h3 class="hpy" id="hp3"></h3>
+  </div>
+  <div id="newy">
+   
+  </div>
+  
+<div id="text">
+  
+<p> Say Bye To <span id="2021">2021</span></p>
+<p>There Is Only </p>
+
+<div id="days"> </div>
+  
+<p id="for">
+
+For The New Bigining🔥🔥
+
+
+
+</p>
+
+
+<div id="sh">
+  
+<h4>Creat Your Own New Year Wish And Share It To Your Friends 👇</h4>
+  <input placeholder="Enter Your Name..." type=text pattern="^[a-zA-Z]+\s?[a-zA-Z]+$" id="uname" >
+<button id="share" onclick="share()">Share</button>
+
+
+</div>
+  <script type="text/javascript" charset="utf-8">
+  
+  function getParameterByName(name, url = window.location.href) {
+    name = name.replace(/[\[\]]/g, '\\$&');
+    var regex = new RegExp('[?&]' + name + '(=([^&#]*)|&|#|$)'),
+        results = regex.exec(url);
+    if (!results) return null;
+    if (!results[2]) return '';
+    return decodeURIComponent(results[2].replace(/\+/g, ' '));
+}
+  
+  console.log(window.location.href)
+  
+  function hid(){
+    var n = getParameterByName('n')
+				var n2 = getParameterByName('n2')
+				if( n2== null){
+								document.getElementById("nm").innerHTML= n;
+							
+				}else{
+								document.getElementById("nm").innerHTML= n+"<br>"+n2;
+								
+				}
+     document.getElementById("text").style.display = "none";
+     document.getElementById("sh").style.display = "none";
+  }
+  
+  
+  
+  
+  
+    const settime1 = setTimeout(show1 , 2000)
+    const settime2 = setTimeout(show2 , 3000)
+    const settime3 = setTimeout(show3 , 4000)
+    const settime4 = setTimeout(show4 , 5000)
+    const settime5 = setTimeout(show5 , 6000)
+     function show1() {
+       document.getElementById("hp1").innerHTML= "Happy";
+     }
+     function show2() {
+       document.getElementById("hp2").innerHTML= "Happier";
+     }
+     function show3() {
+       document.getElementById("hp3").innerHTML= "Happiest";
+     }
+     
+     function show4(){
+       document.getElementById("newy").innerHTML= " <span><h2 id='n'>N</h2></span><span><h2 id='e'>E</h2></span><span><h2 id='w'>W</h2></span><span><h2></h2></span><span><h2 id='Y'> Y</h2></span><span><h2 id='ee'>E</h2></span><span><h2 id='a'>A</h2></span><span><h2 id='r'>R</h2></span>"
+     }
+     
+     function show5(){
+       document.getElementById("text").style.display = "block";
+       document.getElementById("sh").style.display = "block";
+     }
+     
+     
+     
+     
+     
+var countDownDate = new Date("jan 01, 2022 00:00:00").getTime();
+
+
+var x = setInterval(function() {
+  
+  var now = new Date().getTime();
+
+  var distance = countDownDate - now;
+
+  
+  var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+  var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+  var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+  var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+  
+  document.getElementById("days").innerHTML = days + "<font color='#0018ff'> days,</font> " + hours + "<font color='#0018ff'> hr,</font> "
+  + minutes + "<font color='#0018ff'>  min,</font> " + seconds + " sec<font color='#F47810'></font> ";
+
+
+  if (distance < 0) {
+    clearInterval(x);
+    document.getElementById("demo").innerHTML = "";
+  }
+}, 1000);
+
+function share(){
+  var name = document.getElementById("uname").value;
+var nme1=  name.substr(0,str.indexOf(' '));
+var nme2=  name.substr(str.indexOf(' ')+1);
+var mylink= window.location.href;
+  if (name==""){
+    alert("Enter Your Name Above 🙄")
+  }else if(nme2==null){
+    location.replace("whatsapp://send?text=*"+nme1+" Send You Something For New Year 😍😍 * %0a *Please Check It Out👇👇* %0a %0a"+mylink+"?n="+nm1)
+}else{
+  location.replace("whatsapp://send?text=*"+nme1+" Send You Something For New Year 😍😍 * %0a *Please Check It Out👇👇* %0a %0a"+mylink+"?n="+nm1+"&n2="+nm2)
+}
+}
+  </script>
+</body>
+</html>
